@@ -1,11 +1,11 @@
-package listImplementation.scottl111.github;
+package main.java.listImplementation.scottl111.github;
 
 /**
  * My own implementation of a list. Similar to an array list but my own implementation without using any external libraries
  *
  * @param <T> The type of the list.
  */
-public class List<T>
+public class List<T> implements ListInterface
 {
 
     /**
@@ -31,12 +31,18 @@ public class List<T>
      *
      * @param item The item to add to the list
      */
-    public void add(T item)
+    @Override
+    public void add(Object item)
     {
         if (size == list.length)
         {
-            //todo Fix this.
-            throw new RuntimeException("Failed to add an item to the list as the list is already maxed out");
+            Object [] itemInListCurrently = deepCopy();
+            list = new Object[size + 10];
+
+            for(int i =0; i < size; i++)
+            {
+                list[i] = itemInListCurrently[i];
+            }
         }
 
         list[size++] = item;
@@ -50,6 +56,11 @@ public class List<T>
      */
     public T get(int position)
     {
+        if (position >= size || position < 0)
+        {
+            throw new IndexOutOfBoundsException("Item is out of bounds of the list");
+        }
+
         return (T) list[position];
     }
 
@@ -81,7 +92,7 @@ public class List<T>
      */
     private Object[] deepCopy()
     {
-        Object[] newList = new Object[10];
+        Object[] newList = new Object[size];
 
         int newListPosition = 0;
         for (int i =0; i < size; i++)
@@ -106,10 +117,20 @@ public class List<T>
     }
 
     /**
+     * Clears the list
+     */
+    @Override
+    public void clear()
+    {
+        list = new Object[10];
+    }
+
+    /**
      * Returns true if the list is empty or false if not.
      *
      * @return True if the list is empty, false if not
      */
+    @Override
     public boolean isEmpty()
     {
         return size == 0;

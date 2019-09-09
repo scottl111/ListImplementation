@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49e9176d-f15d-4fc7-86f9-6b810bc086a4" name="Default" comment="" />
+    <list default="true" id="49e9176d-f15d-4fc7-86f9-6b810bc086a4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listImplementation/scottl111/github/List.java" afterPath="$PROJECT_DIR$/src/main/java/listImplementation/scottl111/github/List.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listImplementation/scottl111/github/ListTest.java" afterPath="$PROJECT_DIR$/src/test/java/listImplementation/scottl111/github/ListTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +16,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/listImplementation/scottl111/github/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#2664#2665#0" expanded="true" />
+                <element signature="e#2691#2692#0" expanded="true" />
+                <element signature="e#2775#2776#0" expanded="true" />
+                <element signature="e#2812#2813#0" expanded="true" />
+                <element signature="e#2998#2999#0" expanded="true" />
+                <element signature="e#3030#3031#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/listImplementation/scottl111/github/ListInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/listImplementation/scottl111/github/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="100">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +63,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>remove</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -46,6 +88,8 @@
         <option value="$PROJECT_DIR$/src/ListTest.java" />
         <option value="$PROJECT_DIR$/test/src/listImplementation/scottl111/github/ListTest.java" />
         <option value="$PROJECT_DIR$/src/listImplementation/scottl111/github/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/listImplementation/scottl111/github/ListInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/listImplementation/scottl111/github/List.java" />
         <option value="$PROJECT_DIR$/src/test/java/listImplementation/scottl111/github/ListTest.java" />
       </list>
     </option>
@@ -56,6 +100,7 @@
     <option name="width" value="900" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -71,6 +116,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,10 +148,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -184,14 +229,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ListTest.testEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="ListTest.testAddingPastDefaultListSizeAndRemovingItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.listImplementation.scottl111.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="ListImplementation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.java.listImplementation.scottl111.github" />
       <option name="MAIN_CLASS_NAME" value="test.java.listImplementation.scottl111.github.ListTest" />
-      <option name="METHOD_NAME" value="testEmptyList" />
+      <option name="METHOD_NAME" value="testAddingPastDefaultListSizeAndRemovingItems" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -204,14 +254,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ListTest.testListIsGeneric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="ListTest.testGettingFromListWherePositionIsTooHigh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.listImplementation.scottl111.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="ListImplementation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.java.listImplementation.scottl111.github" />
       <option name="MAIN_CLASS_NAME" value="test.java.listImplementation.scottl111.github.ListTest" />
-      <option name="METHOD_NAME" value="testListIsGeneric" />
+      <option name="METHOD_NAME" value="testGettingFromListWherePositionIsTooHigh" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -225,7 +280,12 @@
       <patterns />
     </configuration>
     <configuration name="ListTest.testSizeOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.listImplementation.scottl111.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="ListImplementation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -306,18 +366,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ListTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ListTest.testSizeOfList" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ListTest.testEmptyList" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ListTest.addTestAddingTooManyValuesToList" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ListTest.testListIsGeneric" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ListTest.addTestAddingTooManyValuesToList" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ListTest.testAddingPastDefaultListSizeAndRemovingItems" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ListTest.testSizeOfList" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ListTest.testGettingFromListWherePositionIsTooHigh" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.ListTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ListTest.testListIsGeneric" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ListTest.addTestAddingTooManyValuesToList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ListTest.testEmptyList" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ListTest.testSizeOfList" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ListTest.testGettingFromListWherePositionIsTooHigh" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ListTest.testSizeOfList" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ListTest.testAddingPastDefaultListSizeAndRemovingItems" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ListTest.addTestAddingTooManyValuesToList" />
       </list>
     </recent_temporary>
   </component>
@@ -338,35 +398,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListTest - 2019.09.09 at 20h 36m 45s.xml">
+    <history-entry file="ListTest - 2019.09.09 at 23h 20m 01s.xml">
       <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest - 2019.09.09 at 20h 46m 13s.xml">
+    <history-entry file="ListTest - 2019.09.09 at 23h 26m 33s.xml">
       <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest - 2019.09.09 at 20h 54m 56s.xml">
+    <history-entry file="ListTest - 2019.09.09 at 23h 34m 00s.xml">
       <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest - 2019.09.09 at 20h 55m 35s.xml">
-      <configuration name="ListTest" configurationId="JUnit" />
+    <history-entry file="ListTest_testAddingPastDefaultListSizeAndRemovingItems - 2019.09.09 at 23h 06m 42s.xml">
+      <configuration name="ListTest.testAddingPastDefaultListSizeAndRemovingItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest - 2019.09.09 at 20h 59m 27s.xml">
-      <configuration name="ListTest" configurationId="JUnit" />
+    <history-entry file="ListTest_testAddingPastDefaultListSizeAndRemovingItems - 2019.09.09 at 23h 07m 39s.xml">
+      <configuration name="ListTest.testAddingPastDefaultListSizeAndRemovingItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_testListIsGeneric - 2019.09.09 at 20h 35m 09s.xml">
-      <configuration name="ListTest.testListIsGeneric" configurationId="JUnit" />
+    <history-entry file="ListTest_testAddingPastDefaultListSizeAndRemovingItems - 2019.09.09 at 23h 09m 27s.xml">
+      <configuration name="ListTest.testAddingPastDefaultListSizeAndRemovingItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_testListIsGeneric - 2019.09.09 at 20h 37m 14s.xml">
-      <configuration name="ListTest.testListIsGeneric" configurationId="JUnit" />
+    <history-entry file="ListTest_testAddingPastDefaultListSizeAndRemovingItems - 2019.09.09 at 23h 09m 41s.xml">
+      <configuration name="ListTest.testAddingPastDefaultListSizeAndRemovingItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_testListIsGeneric - 2019.09.09 at 20h 37m 47s.xml">
-      <configuration name="ListTest.testListIsGeneric" configurationId="JUnit" />
+    <history-entry file="ListTest_testGettingFromListWherePositionIsTooHigh - 2019.09.09 at 23h 33m 19s.xml">
+      <configuration name="ListTest.testGettingFromListWherePositionIsTooHigh" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_testListIsGeneric - 2019.09.09 at 20h 46m 53s.xml">
-      <configuration name="ListTest.testListIsGeneric" configurationId="JUnit" />
+    <history-entry file="ListTest_testGettingFromListWherePositionIsTooHigh - 2019.09.09 at 23h 33m 36s.xml">
+      <configuration name="ListTest.testGettingFromListWherePositionIsTooHigh" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_testListIsGeneric - 2019.09.09 at 20h 47m 16s.xml">
-      <configuration name="ListTest.testListIsGeneric" configurationId="JUnit" />
+    <history-entry file="ListTest_testSizeOfList - 2019.09.09 at 23h 28m 34s.xml">
+      <configuration name="ListTest.testSizeOfList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -381,22 +441,22 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15234375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29166666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.201875" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21484375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37890625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.201875" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -434,56 +494,73 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>Exception</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/List.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/listImplementation/scottl111/github/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/List.java" />
+    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/ListTest.java" />
     <entry file="file://$PROJECT_DIR$/test/TestList" />
-    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/ListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/ListTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/List.java" />
+    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/ListTest.java" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/List.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/listImplementation/scottl111/github/ListInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="833">
+          <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/listImplementation/scottl111/github/ListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/listImplementation/scottl111/github/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#2664#2665#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/listImplementation/scottl111/github/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="100">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
