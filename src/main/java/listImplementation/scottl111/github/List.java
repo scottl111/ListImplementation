@@ -37,12 +37,9 @@ public class List<T> implements ListInterface
         if (size == list.length)
         {
             Object [] itemInListCurrently = deepCopy();
-            list = new Object[size + 10];
+            list = new Object[size * 2];
 
-            for(int i =0; i < size; i++)
-            {
-                list[i] = itemInListCurrently[i];
-            }
+            System.arraycopy(itemInListCurrently, 0, list, 0, size);
         }
 
         list[size++] = item;
